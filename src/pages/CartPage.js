@@ -21,7 +21,7 @@ const CartPage = () => {
     return (
 
 
-        <div className="text-center min-w-[320px] mt-28 min-h-[250px]">
+        <div className="text-center min-w-[350px] max-w-[1440px] mt-28 min-h-[250px]">
 
 
             {placed &&
@@ -29,7 +29,7 @@ const CartPage = () => {
                     <div className="w-6 text-green-700 mb-2 mx-auto text-3xl"><FaCheckCircle /></div>
                     <div className="text-indigo-600 mb-2"> Thank you for your purchase.</div>
                     <div>Your order has been placed and will be delivered to you within 24 hours.</div>
-                    <Link to="/books" >
+                    <Link to="/" >
                         <button className="text-indigo-600 font-semibold px-2 py-1 hover:underline mt-4" onClick={(e) => { setPlaced(false) }}>
                             Continue shopping</button>
                     </Link>
@@ -40,8 +40,8 @@ const CartPage = () => {
 
             {!cartItems.length ? <div></div> :
 
-                <div className="w-3/4 md:w-1/2 mx-auto mt-6">
-                    <div className="text-2xl mb-6 font-semibold text-indigo-700">Cart</div>
+                <div className="w-3/4 md:w-1/2 mx-auto mt-6 max-w-5xl">
+                    <div className="text-xl sm:text-2xl pt-8 sm:pt-0 mb-6 font-medium sm:font-semibold text-indigo-700">Cart</div>
                     <div className="flex justify-between text-xs text-gray-700 mb-1"><div className="w-3/5 text-left">Item</div><div>Quantity</div><div>Price</div></div>
                     <hr className="mb-2" />
 

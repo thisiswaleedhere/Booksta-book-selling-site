@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Filter from "../components/Filter";
 import SingleProduct from "../components/SingleProduct";
 import { CartState } from "../context/context";
@@ -32,12 +32,15 @@ const ProductPage = () => {
         return filteredBookList;
     }
 
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [])
 
 
     return (
-        <div className="bg-gray-50 min-w-[355px] pl-2 pt-2 divide-y mt-14">
+        <div className="bg-gray-50 min-w-[355px] max-w-[1440px] pl-2 pt-12 sm:pt-2 divide-y mt-14">
 
-            <div className="w-max sm:ml-10">
+            <div className="w-max sm:ml-10 max-w-6xl">
                 <Filter />
             </div>
 
