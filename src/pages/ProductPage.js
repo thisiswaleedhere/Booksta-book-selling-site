@@ -38,7 +38,7 @@ const ProductPage = () => {
 
 
     return (
-        <div className="bg-gray-50 min-w-[355px] max-w-[1440px] pl-2 pt-12 sm:pt-2 divide-y mt-14">
+        <div className="bg-gray-50 min-w-[355px] max-w-[1920px] mx-auto pl-2 pt-12 sm:pt-2 divide-y mt-14">
 
             <div className="w-max sm:ml-10 max-w-6xl">
                 <Filter />

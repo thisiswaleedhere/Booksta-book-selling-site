@@ -12,7 +12,7 @@ const Footer = ({ setPpScroll, setTcScroll }) => {
     return (
 
 
-        <footer className="px-4 mt-10 divide-y bg-gray-100 border-t-2 border-gray-200 sm:px-10 lg:px-16 w-full min-w-[355px] max-w-[1440px]">
+        <footer className="px-4 mt-10 divide-y bg-gray-100 border-t-2 border-gray-200 sm:px-10 lg:px-16 w-full min-w-[355px] max-w-[1920px] mx-auto">
             <div className="py-10 flex-column space-y-8 lg:flex lg:justify-between">
 
                 <div className="lg:w-1/3">

@@ -21,7 +21,7 @@ const CartPage = () => {
     return (
 
 
-        <div className="text-center min-w-[350px] max-w-[1440px] mt-28 min-h-[250px]">
+        <div className="text-center min-w-[350px] max-w-[1440px] mx-auto mt-28 min-h-[250px]">
 
 
             {placed &&

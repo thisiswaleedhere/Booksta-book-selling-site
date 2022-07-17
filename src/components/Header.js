@@ -10,7 +10,7 @@ const Header = () => {
     const { book: { cartItems }, bookFilter: { searchQuery }, filterDispatch } = CartState();
 
     return (
-        <div className="bg-gray-100 border-b-2 border-gray-200 w-full min-w-[355px] max-w-[1440px] flex-column sm:flex px-12 py-3 h-[104px] sm:h-16 justify-between top-0 fixed">
+        <div className="bg-gray-100 border-b-2 border-gray-200 w-full min-w-[355px] max-w-[1920px] mx-auto flex-column sm:flex px-12 py-3 h-[104px] sm:h-16 justify-between top-0 fixed">
 
             <Link to="/" ><div className="w-24 mx-auto sm:mx-0 mb-3 sm:mb-0"><div className="text-2xl text-indigo-600 pr-5 tracking-wide relative">booksta</div><div className="absolute text-2xl text-indigo-500 -translate-y-5 translate-x-[17px] h-6 overflow-clip"><GiBookCover /></div></div></Link>
 

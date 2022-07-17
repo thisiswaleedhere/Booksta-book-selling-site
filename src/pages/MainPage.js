@@ -22,7 +22,7 @@ const MainPage = ({ tcScroll, ppScroll, setPpScroll, setTcScroll }) => {
 
 
     return (
-        <div className="flex-column w-full px-4 sm:px-8 py-4 h-4/5 text-center pt-20 min-w-[355px] max-w-[1440px]">
+        <div className="flex-column w-full px-4 sm:px-8 py-4 h-4/5 text-center pt-20 min-w-[355px] max-w-[1440px] mx-auto">
             <div className="px-2">
                 <div className="text-xl pt-10 pb-4 sm:pt-4 sm:pb-4 font-semibold text-indigo-500" ref={aboutUs}>About Us</div>
                 <div className="pb-16 space-y-6">
