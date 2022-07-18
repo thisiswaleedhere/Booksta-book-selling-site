@@ -68,8 +68,8 @@ const Footer = ({ setPpScroll, setTcScroll }) => {
             <div className="py-3 text-xs text-center text-gray-600 dark:text-gray-400 flex justify-between px-10">
                 <div>Made by MW</div>
                 <div className="flex justify-center space-x-4 mt-1">
-                    <div><AiOutlineGithub /></div>
-                    <div><CgWebsite /></div>
+                    <div><a href="https://github.com/thisiswaleedhere" target="_blank" rel="noreferrer" ><AiOutlineGithub /></a></div>
+                    <div><a href="https://waleed-dev-portfolio.vercel.app/" target="_blank" rel="noreferrer" ><CgWebsite /></a></div>
                 </div>
             </div>
 
